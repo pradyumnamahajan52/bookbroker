@@ -1,5 +1,5 @@
 # BookBroker
-<p align="center"><img src="https://github.com/pradyumnamahajan52/tic-tac-toe/blob/master/intro_img.jpg" height="300"></p>
+<p align="center"><img src="https://github.com/pradyumnamahajan52/bookbroker/blob/main/screenshot/bokbroker1.png" height="300"></p>
 
 <p align="center">
   
@@ -22,12 +22,12 @@ https://bookbroker.psmweb.in/
 
 ## About Project
 
-This project is completely based on django and reactjs
+This project is completely based on django and reactjs. for backend django and mysql is used or for frontned reactjs is used.
 
 ## Screen Shot
 
 <p align="center">
-<img src="https://github.com/pradyumnamahajan52/tic-tac-toe/blob/master/Project%20Images/loading.png" width="350" height="450">
+<img src="https://github.com/pradyumnamahajan52/bookbroker/blob/main/screenshot/bokbroker1.png" width="350" height="450">
 </p>
 
 ## How to use 
