@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  height: 100%;
+}
+
+.cart-section {
+  padding: 10px;
+}
+
+.cart-summary {
+  width: 100%;
+  background-color: rgb(212, 35, 35);
+  padding-left: 20px;
+}
+.cart-summary table tr {
+  width: 100%;
+}
+.cart-summary table tr td {
+  width: 80%;
+  color: white;
+  font-weight: bold;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.cart-items {
+  margin-top: 20px;
+}
+.cart-items a {
+  text-decoration: none;
+}
+.product-cart-items {
+  width: 100%;
+  display: flex;
+  background-color: rgb(235, 235, 235);
+}
+.product-pic {
+  width: 35%;
+}
+.product-pic img {
+  object-fit: contain;
+  height: 100%;
+  width: 100%;
+}
+.product-detail {
+  width: 65%;
+  padding-left: 10px;
+}
+.product-detail h6 {
+  color: black;
+}
+.product-detail p {
+  color: rgb(212, 35, 35);
+  font-weight: bolder;
+}
+.product-detail button {
+  width: 70px;
+  height: 30px;
+  border: none;
+  color: white;
+  margin-left: 20px;
+  background-color: rgb(212, 35, 35);
+}
+
+.bottom-btn {
+  padding: 0;
+  bottom: 0;
+  width: 100%;
+  position: fixed;
+}
+.bottom-btn button {
+  height: 50px;
+  width: 100%;
+  border: none;
+  color: white;
+  background-color: rgb(92, 207, 25);
+  text-align: center;
+}
+.bottom-btn button:hover {
+  color: white;
+  background-color: rgb(212, 35, 35);
+}
+.bottom-btn button,
+select {
+  outline: none;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .product-cart-items {
+    height: 100px;
+    padding: 5px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+}

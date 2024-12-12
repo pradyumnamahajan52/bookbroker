@@ -1,0 +1,268 @@
+/* product detail page styling*/
+
+.actualrate span {
+  font-size: 22px;
+}
+.actualrate strong {
+  font-size: 17px;
+}
+.actualrate strong a {
+  color: green;
+  font-size: 25px;
+}
+.productdetail img {
+  height: 100%;
+  width: 100%;
+}
+.productdetailinfo h4 {
+  margin-top: 10px;
+  color: rgb(0, 0, 0);
+  font-weight: bolder;
+}
+.productdetailinfo h6 {
+  color: darkslategray;
+}
+.productpage {
+  margin-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.btn button {
+  border: none;
+}
+.productdetail .addtocardbtn button {
+  background: linear-gradient(to bottom, #ffff66 0%, #ff9900 100%);
+  margin-left: 15px;
+  border: none;
+  width: 250px;
+}
+
+.productdetail .addtocardbtn button:hover {
+  background: linear-gradient(to bottom, #66ff66 0%, #009933 100%);
+}
+.features h5 {
+  color: rgb(1, 8, 32);
+  margin-left: 5px;
+}
+.features ul {
+  list-style-type: circle;
+}
+.detailinfo {
+  margin-left: 10px;
+}
+
+/*  WHATSAPP__SECTION  */
+
+/* .whatsapporder{
+      margin-top:20px;
+      margin:auto;
+      background-color: rgb(226, 219, 219);
+      padding:20px;
+      border:2px solid green;
+      position:relative;
+  }
+  .whatsapplogo button{
+      background-color: rgb(20, 158, 7);
+      color:white;
+      border:none;
+      font-size: 15px;
+      width:300px;
+      display: flex;
+      flex-direction:column;
+      align-items: center;
+      margin:auto;
+      padding-top:10px;
+      padding-bottom:10px;
+      margin-top:5px;
+  }
+  .whatsapplogo button:hover{
+      background-color: darkgreen;
+  }
+  
+  .whatsapporder h5{
+      color:darkgreen;
+      font-weight:bolder;
+  }
+  .whatsapporder h6{
+      color:black;
+      font-weight:bolder;
+  }
+  .whatsapporder h6 .fa-phone{
+      margin-top:10px;
+      color:black;
+      font-weight:bolder;
+      font-size:20px;
+  }
+  .whatsapporder h6 a{
+      color:blue;
+      font-weight:bolder;
+  }
+  .whatsapporder .fa-whatsapp{
+      padding:5px;
+      color:white;
+      background-color:rgb(20, 158, 7);
+      border-radius: 4px;
+      box-shadow:0px 0px 4px 4px rgb(184, 178, 178);
+  } */
+/* ENDS */
+
+/*  SERVICE__SECTION */
+
+.service {
+  background-color: rgb(205, 255, 255);
+  padding: 20px;
+  border: 2px solid rgb(1, 8, 32);
+}
+.service h6 {
+  color: black;
+  font-weight: bolder;
+}
+.service p {
+  color: black;
+  font-weight: bolder;
+  font-size: 20px;
+}
+.service a {
+  color: blue;
+  font-weight: bolder;
+  font-size: 20px;
+}
+/*  ENDS */
+
+/*  Image gallery section   */
+
+* {
+  box-sizing: border-box;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.productpage__container {
+  position: relative;
+}
+
+/* Hide the images by default */
+.productpage__bigslide {
+  display: none;
+  object-fit: contain;
+}
+
+.productpage__smallslide {
+  border: 2px solid black;
+  border-radius: 2px;
+  margin: auto;
+}
+
+.productpage__imageoptions {
+  align-content: center;
+}
+@media only screen and (max-width: 599px) {
+  .column {
+    width: 16.66%;
+  }
+}
+@media only screen and (min-width: 600px) {
+  .productdetailinfo {
+    padding-left: 20px;
+  }
+  .productpage__imageoptions {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .productpage__smallslide {
+    border: 1px solid black;
+    border-radius: 2px;
+    height: 100px;
+    width: 100%;
+  }
+  .column {
+    width: 100px;
+  }
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 5px;
+  padding-top: 2px;
+  margin-top: -50px;
+  color: rgb(20, 1, 1);
+
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+  color: white;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(250, 0, 196, 0.8);
+  color: white;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 1;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+/*  Ends */
+
+/* STYLING FOR TABLE */
+
+@media only screen and (min-width: 600px) {
+  .fullinfo table {
+    max-width: 50%;
+    margin: auto;
+  }
+}

@@ -1,0 +1,85 @@
+.order-note {
+  display: grid;
+  place-items: center;
+}
+
+.note {
+  height: 100%;
+  width: 90%;
+  background-color: rgb(229, 238, 229);
+  box-shadow: -1px 4px 10px 5px rgb(204, 202, 202);
+}
+
+.order-proposal h2 {
+  color: green;
+  text-align: center;
+  border-bottom: 2px solid rgb(214, 198, 198);
+}
+
+.in-note {
+  padding: 10px;
+}
+
+.note-img img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+.note-buttons {
+  display: flex;
+}
+
+#confirm {
+  height: 40px;
+  width: 50%;
+  border: none;
+  color: white;
+  font-weight: bolder;
+  background-color: rgb(41, 231, 41);
+}
+
+#reject {
+  height: 40px;
+  width: 50%;
+  border: none;
+  color: white;
+  font-weight: bolder;
+  background-color: rgb(255, 71, 65);
+}
+
+#confirm:hover {
+  background-color: rgb(13, 173, 13);
+}
+#reject:hover {
+  background-color: rgb(221, 31, 24);
+}
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .note-img {
+    height: 100%;
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+
+  .note-img {
+    height: 150px;
+    width: 150px;
+  }
+
+  .note {
+    width: 40%;
+  }
+  .in-note {
+    display: flex;
+  }
+  .note-img {
+    padding-left: 20px;
+  }
+  .note-name {
+    padding-left: 20px;
+  }
+}

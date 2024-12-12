@@ -1,0 +1,157 @@
+h1 {
+  color: green;
+  text-align: center;
+}
+.address {
+  display: block;
+  margin: auto;
+  height: 100%;
+  width: 90%;
+  padding: 10px;
+  background-color: rgb(232, 236, 232);
+  box-shadow: -1px 4px 10px 5px rgb(204, 202, 202);
+}
+
+.address label {
+  font-weight: bolder;
+  margin-top: 10px;
+  padding-left: 10px;
+  color: rgb(30, 41, 53);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.form-group {
+  display: flex;
+}
+
+.form-group input {
+  flex: 1;
+  height: 40px;
+}
+
+.full-in input {
+  display: block;
+  margin: auto;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  padding: 0px;
+
+  width: 90%;
+  border: none;
+  border-radius: 20px;
+  padding-left: 10px;
+}
+
+.full-in input:focus {
+  outline: none;
+  border: 1px solid red;
+}
+
+.line-in input {
+  display: block;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 0px;
+
+  width: 90%;
+  border: none;
+  border-radius: 20px;
+  padding-left: 10px;
+}
+
+.line-in input:focus {
+  outline: none;
+  border: 1px solid red;
+}
+
+.line-in .form-group {
+  flex: 1;
+}
+
+.line-in .form-group input {
+  margin-left: 10px;
+}
+
+select {
+  flex: 1;
+  height: 40px;
+  margin-top: 10px;
+  margin-left: 10px;
+  border-radius: 20px;
+  padding-left: 10px;
+  padding-right: 0px;
+  border: none;
+}
+
+select:focus {
+  border: none;
+}
+
+#change-delivery-address {
+  height: 40px;
+  border: none;
+  border-radius: 20px;
+  font-weight: bolder;
+  color: white;
+  background-color: rgb(26, 106, 180);
+}
+
+#change-delivery-address:hover {
+  background-color: rgb(10, 69, 124);
+}
+button:focus {
+  outline: none;
+}
+
+#submit {
+  height: 40px;
+  border: none;
+  border-radius: 20px;
+  font-weight: bolder;
+  color: white;
+  background-color: rgb(36, 204, 100);
+}
+
+#submit:hover {
+  background-color: rgb(17, 145, 70);
+}
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .form-group {
+    display: block;
+  }
+
+  .iine-in input {
+    height: 40px;
+    padding: 10px;
+  }
+
+  select {
+    width: 92%;
+  }
+  button {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .address {
+    display: block;
+    margin: auto;
+    width: 70%;
+  }
+
+  .line-in {
+    display: flex;
+  }
+  button {
+    width: 50%;
+  }
+  .bot-buttons {
+    display: flex;
+  }
+}
