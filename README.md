@@ -1,42 +1,99 @@
 # BookBroker
-<p align="center"><img src="https://github.com/pradyumnamahajan52/bookbroker/blob/main/screenshot/bokbroker1.png" height="300"></p>
 
 <p align="center">
-  
-  <a href="#" ><img src="https://img.shields.io/badge/Programming Language-python & reactjs-brightgreen"> </a>
-  [<img src="https://img.shields.io/github/license/pradyumnamahajan52/tic-tac-toe?color=GREEN">](LICENSE) 
-
+  <img src="https://github.com/pradyumnamahajan52/bookbroker/blob/main/screenshot/bokbroker1.png" height="300" alt="BookBroker Screenshot">
 </p>
-
-## Project Name
-
-This project is also called Bookbroker
-
-## Source Code upload Soon
-coming soon.....
-
-## Demo Link
-Not available Link due to hosting limitation
-
-
-## About Project
-
-This project is completely based on django and reactjs. for backend django and mysql is used or for frontned reactjs is used.
-
-## Screen Shot
 
 <p align="center">
-<img src="https://github.com/pradyumnamahajan52/bookbroker/blob/main/screenshot/bokbroker1.png" width="350" height="450">
+  <img src="https://img.shields.io/badge/Programming%20Language-Python%20%26%20ReactJS-brightgreen" alt="Programming Language">
+  <a href="LICENSE"><img src="https://img.shields.io/github/license/pradyumnamahajan52/tic-tac-toe?color=GREEN" alt="License"></a>
 </p>
 
-## How to use 
+## About the Project
 
+**BookBroker** is an e-commerce platform for buying and selling books. It features seamless integration with the **Braintree Payment Gateway** for secure transactions. The project leverages **Django** and **MySQL** for the backend and **ReactJS** for the frontend to provide a modern, scalable, and responsive web application.
 
+---
 
-## License
+## Features
+- **Book Listing and Details:** Browse through a collection of books with detailed descriptions.
+- **Secure Payments:** Integrated with the Braintree Payment Gateway for seamless transactions.
+- **User-Friendly Interface:** A clean and intuitive UI built with ReactJS.
+- **Backend Powerhouse:** Robust backend built using Django and MySQL.
+- **Mobile-Responsive Design:** Optimized for all screen sizes.
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
+---
 
-## Developers
+## Demo
 
-**@pradyumnamahajan52 @sandeep1905 @gauravverma**
+Due to hosting limitations, the demo link is not available at the moment.
+
+---
+
+## Screenshots
+
+<p align="center">
+  <img src="https://github.com/pradyumnamahajan52/bookbroker/blob/main/screenshot/bokbroker1.png" width="350" height="450" alt="BookBroker Screenshot">
+</p>
+
+---
+
+## Getting Started
+
+### Prerequisites
+- Python 3.x
+- Node.js and npm
+- MySQL / SQLite
+
+### 🛠️ Installation
+
+1. **Clone the Repository:**
+   ```bash
+   git clone https://github.com/pradyumnamahajan52/bookbroker.git
+   cd bookbroker
+   ```
+
+2. **Backend Setup (Django):**
+   - Navigate to the backend folder and install dependencies:
+     ```bash
+     pip install -r requirements.txt
+     ```
+   - Run migrations:
+     ```bash
+     python manage.py makemigrations
+     python manage.py migrate
+     ```
+   - Start the backend server:
+     ```bash
+     python manage.py runserver
+     ```
+
+3. **Frontend Setup (ReactJS):**
+   - Navigate to the frontend folder and install dependencies:
+     ```bash
+     npm install
+     ```
+   - Start the frontend development server:
+     ```bash
+     npm start
+     ```
+
+4. **Access the Application:**
+   - Backend: `http://127.0.0.1:8000/`
+   - Frontend: `http://localhost:3000/`
+
+---
+
+## 📜 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+## 👥 Developers
+
+- **Pradyumna Mahajan** - [GitHub](https://github.com/pradyumnamahajan52)
+- **Sandeep** - [GitHub](https://github.com/sandeep1905)
+- **Gaurav Verma** - [GitHub](https://github.com/gauravverma)
+
+---
