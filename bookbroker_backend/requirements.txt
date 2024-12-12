@@ -1,0 +1,14 @@
+cryptography
+dj-rest-auth
+Django
+django-allauth
+django-ckeditor
+django-cors-headers
+django-filter
+djangocms-admin-style
+djangorestframework
+markdown
+wheel
+Pillow
+
+
